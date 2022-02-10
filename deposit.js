@@ -22,7 +22,7 @@ function deposit(newDepositAmount){
 withdrawButton.addEventListener('click',function(event){
     let newWithdrawAmount=withdrawInput.value;
     withdrawAmount.innerText= withdraw(newWithdrawAmount);
-    currentBalance.innerText=current(parseFloat(withdrawAmount.innerText));
+    currentBalance.innerText=current(parseFloat(newWithdrawAmount));
     withdrawInput.value='';
 })
 
