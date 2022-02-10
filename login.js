@@ -5,7 +5,7 @@ loginButton.addEventListener('click',function(event){
     let passwordValue= passwordField.value;
     let emailValue= emailField.value;
     if(emailValue=='tanim@gmail.com'&&passwordValue=='tashin'){
-        window.location.href= 'https://www.google.com';
+        window.location.href= 'deposit.html';
     } else if(emailValue=='' || passwordValue=='tashin'){
         alert('Please enter valid email')
     } else if(emailValue=='tanim@gmail.com' || passwordValue=='' ){
